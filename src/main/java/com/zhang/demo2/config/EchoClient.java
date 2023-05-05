@@ -38,7 +38,7 @@ public class EchoClient {
             }
         });
 
-        channel = bootstrap.connect("127.0.0.1", 8888).sync().channel();
+        channel = bootstrap.connect("127.0.0.1", 9876).sync().channel();
     }
 
     public void send(String message) {
